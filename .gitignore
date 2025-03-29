@@ -5,4 +5,24 @@ node_modules
 
 # CDK asset staging directory
 .cdk.staging
-cdk.out
+cdk.out/
+
+# Existing ignores...
+
+# Python build artifacts
+*.pyc
+__pycache__/
+.venv/
+venv/
+*.venv
+env/
+*.env
+pip-wheel-metadata/
+.eggs/
+develop-eggs/
+*.egg-info/
+dist/
+build/
+*.tar.gz
+*.egg
+*.whl
